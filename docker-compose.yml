@@ -1,0 +1,9 @@
+services:
+  frontend:
+    image: application
+    build: ./hello-world
+
+services:
+  frontend:
+    image: nginx-server
+    build: ./web-server
